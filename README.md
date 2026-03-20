@@ -1,11 +1,11 @@
-📊 Employee Performance Mapping - MySQL Project
-📌 Project Overview
+Employee Performance Mapping - MySQL Project
+Project Overview
 This project, Employee Performance Mapping, was completed as part of the SQL Training Course-End Project. The goal was to help ScienceQtech, a data science startup, analyze and evaluate employee performance using a relational database approach in MySQL.
 
-🧠 Problem Statement
+Problem Statement
 ScienceQtech needs a system to analyze employee performance during their annual appraisal cycle. As a Junior Database Administrator (DBA), your job is to extract key insights from the employee and project data, calculate bonuses, evaluate job standards, and assist HR with data-driven decision-making.
 
-🗂️ Dataset Description
+Dataset Description
 Three datasets were used:
 
 1. emp_record_table.csv
@@ -23,7 +23,7 @@ Employees in the data science team:
 
 EMP_ID, FIRST_NAME, LAST_NAME, GENDER, ROLE, DEPT, EXP, COUNTRY, CONTINENT
 
-⚙️ Setup Instructions
+Setup Instructions
 Create Database:
 
 sql
@@ -38,7 +38,7 @@ Entity Relationship (ER) Diagram:
 
 Constructed to understand the relationships between employee, project, and team data.
 
-✅ Key SQL Tasks Performed
+Key SQL Tasks Performed
 Fetch employee details with various filters (e.g., department, ratings)
 
 Concatenate names and use column aliasing
@@ -70,7 +70,7 @@ Indexing to improve search performance
 Nested queries and subqueries
 
 
-🧮 Job Role Standards Mapping (Stored Function Logic)
+Job Role Standards Mapping (Stored Function Logic)
 Experience (Years)	Job Title
 0–2	JUNIOR DATA SCIENTIST
 2–5	ASSOCIATE DATA SCIENTIST
@@ -78,14 +78,14 @@ Experience (Years)	Job Title
 10–12	LEAD DATA SCIENTIST
 12–16	MANAGER
 
-📊 Outputs
+Outputs
 Clean, normalized relational data tables
 
 Insightful queries supporting HR appraisal and training decisions
 
 Optimized query performance using indexes and procedures
 
-🛠️ Tools Used
+Tools Used
 Database: MySQL
 
 IDE: MySQL Workbench 
